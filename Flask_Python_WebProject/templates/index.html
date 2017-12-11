@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<hr>
+<div class="jumbotron">
+    <h1>Welcome to FlaskWebApp</h1>
+    <p class="lead">Flask is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <div class="text-center">
+        {% if not session.logged_in %}
+            <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg">Register</a>
+            <a href="{{ url_for('login') }}" class="btn btn-success btn-lg">Login</a>
+        {% endif %}
+
+</div>
+
+</div>
+{% endblock %}
