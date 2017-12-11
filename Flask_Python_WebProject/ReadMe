@@ -1,0 +1,5 @@
+This website uses Python and Flask to do the following:
+● Simulate a user login
+● Redirect the user to a Dashboard page
+This website incorporates a basic user class that handles logins, logouts, and authentications. 
+The dashboard page authenticates that the user has proper permissions and is authorized to view the page.
