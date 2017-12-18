@@ -1,0 +1,6 @@
+1. MySQL server installed.
+2. Python IDE installed. (eg. Pycharm) with Python 3.6
+3. execute following sql queries on MySql server to create Database 'flaskWebApp' and 'users' table inside it.
+	create database flaskWebApp;
+	create table users(id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100),email VARCHAR(100), password VARCHAR(100), register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+4. Download the Project and follow instruction in ReadMe file.
