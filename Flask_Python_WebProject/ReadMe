@@ -3,3 +3,12 @@ This website uses Python and Flask to do the following:
 ● Redirect the user to a Dashboard page
 This website incorporates a basic user functionality of logins, logouts, and authentications. 
 
+To run this application.
+1. Check all the requirements in requirements.txt file are met.
+2. Download the 'Flask_Python_WebProject'
+3. Open the project in Python IDE (eg. Pycharm)
+4. update following config information in '__init__' file (line number 22,23,24) according to your installed MySQL server host, user and password
+        app.config['MYSQL_HOST'] = 'localhost'
+        app.config['MYSQL_USER'] = 'root'
+        app.config['MYSQL_PASSWORD'] = 'Password'
+5. Run '__init__' file.
